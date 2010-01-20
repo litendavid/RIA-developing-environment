@@ -11,7 +11,7 @@
     <body>
     	<div id="wrapper">
 	        <h1>Welcome!</h1>
-			<p>My very nice application!</p>
+			<p>My nice application!</p>
 		</div>
 		<script type="text/javascript" src="script/resources/jquery-1.4.min.js"></script>
 		<script type="text/javascript" src="script/application.js"></script>
