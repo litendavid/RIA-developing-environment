@@ -1,0 +1,39 @@
+#devwrapper {
+	text-align: left;
+}
+
+#devwrapper > div {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	min-height: 100%;
+	min-width: 80%;
+	margin-left: 100px;
+	background-color: white;
+}
+
+#devwrapper > div.show {
+	display: block;
+	padding: 10px;
+}
+
+#devbuttons {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#devbuttons > div {
+	position: fixed;
+	left: 0px;
+	width: 100px;
+	height: 50px;
+	z-index: 100;
+	border: 1px solid black;
+	border-left: none;
+	background-color: white;
+}
+
+#devbuttons > div.active {
+	background-color: yellow;
+}

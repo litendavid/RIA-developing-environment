@@ -1,0 +1,62 @@
+#console {
+	font-family: "courier";
+	font-size: 0.8em;
+	width: 70em;
+}
+
+
+.CodeMirror-wrapping {
+	border: 1px solid black;
+	border-left: none;
+}
+.CodeMirror-line-numbers {
+	width: 2.2em;
+	color: #aaa;
+	background-color: #eee;
+	text-align: right;
+	padding-right: .3em;
+	font-size: 10pt;
+	font-family: monospace;
+	padding-top: .4em;
+}
+
+#consoleoutput {
+	padding: 0;
+}
+
+#consoleoutput li {
+	list-style: none;
+	padding: 1em;
+	border-bottom: 1px solid #abc;
+}
+
+#lineerrors > div {
+	position: absolute;
+}
+
+.showError .lineerror {
+	display: block;
+}
+
+.lineerror {
+	width: 96px;
+	padding: 8px;
+	background-color: rgb(196, 0, 0);
+	background-color: rgba(196, 0, 0, 0.5);
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	position: absolute;
+	display: none;
+	
+	line-height: normal;
+	font-weight: normal;
+	color: #000;
+}
+
+.lineoverlay {
+	line-height: 10pt;
+	font-weight: bold;
+	color: #d00;
+	background-color: rgba(196, 0, 0, 0.2);
+}

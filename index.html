@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="Stylesheet" href="css/reset-min.css" type="text/css" media="all" />
+		<link rel="Stylesheet" href="css/base-min.css" type="text/css" media="all" />
+		<link rel="Stylesheet" href="css/application.css" type="text/css" media="all" />
+        <title>My application</title>
+    </head>
+    <body>
+    	<div id="wrapper">
+	        <h1>Welcome!</h1>
+			<p>My nice application!</p>
+		</div>
+		<script type="text/javascript" src="script/resources/jquery-1.4.min.js"></script>
+		<script type="text/javascript" src="script/application.js"></script>
+		<!-- remove tags below here after development! -->
+		<script type="text/javascript">
+			window.devenvsettings = {
+				unittest : 'jspec',            // can be 'qunit' or 'jspec'
+				prettyprint : 'Application',   // the default datapath to prettyprint
+				codemirror : true,             // whether or not to use codemirror console, otherwise just textarea
+				lint : 'script/application.js' // default filepath to lint
+			};
+		</script>
+    	<script type="text/javascript" src="devenv/qunit/qunit.js"></script> <!-- cannot load dynamically, needs load event -->
+		<script type="text/javascript" src="devenv/devenv.js"></script>
+    </body>
+</html>
+
