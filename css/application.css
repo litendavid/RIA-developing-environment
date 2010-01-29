@@ -1,11 +1,11 @@
 html, body {
 	text-align: center;
-	background-color: grey;
+	background-color: #CCC;
 }
 
 #wrapper {
 	width: 600px;
-	background-color: white;
+	background-color: #FFF;
 	margin: 0 auto;
 	text-align: left;
 }
